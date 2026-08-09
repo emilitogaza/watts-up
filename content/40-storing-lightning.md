@@ -79,4 +79,7 @@ inherit will likely be a stranger, smarter machine: millions of solar roofs,
 car batteries selling power *back* during peak hours, and software
 conducting the whole orchestra.
 
-One chapter left — your pocket reference and a small, friendly final exam.
+That closes the first arc — the big world of power. Now the course changes
+scale entirely: down from the continent-sized machine to the electron-sized
+one, onto the workbench where circuits are measured, understood, and
+occasionally mourned.

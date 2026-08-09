@@ -42,23 +42,34 @@ Because electricity is the closest thing we have to actual magic, and you're
 
 ## What you'll learn
 
-By the last chapter you'll be able to:
+The course runs in two arcs. **The big world** first:
 
-- Explain what electricity *actually is* (hint: it's not "electrons zooming
-  through wires").
-- Speak fluent **volts, amps, ohms and watts** — and read your electricity
-  bill with your head held high.
-- Follow a watt of power from a spinning turbine, across the country, through
-  a series of transformers, into your phone charger.
-- Open your fuse box and know what everything does (and what the mysterious
-  test button is for).
-- Understand why electricity is dangerous, what actually causes harm, and
-  which classic "facts" are myths.
+- What electricity *actually is* (hint: not "electrons zooming through
+  wires").
+- Fluent **volts, amps, ohms and watts** — and an electricity bill you can
+  read with your head held high.
+- The journey of a watt: spinning turbine → 400,000-volt pylons →
+  transformer → your phone charger.
+- Your fuse box, decoded — and why electricity hurts, minus the myths.
+
+Then **down to the electron scale**, onto the workbench:
+
+- How instruments make the invisible measurable — and why in-circuit
+  readings lie.
+- What resistors, capacitors, diodes, transistors and MOSFETs really do,
+  and why every LED travels with a bodyguard.
+- The metallurgy of connections: what a solder joint *is*, what flux does,
+  why crimps outlive solder.
+- What a microcontroller pin is behind the metal — logic levels, PWM, and
+  honest power budgets.
+- How chips converse (UART, I2C, SPI), how the analog world gets digitised
+  — and why every LED-strip wiring rule is derivable physics, not folklore.
 
 ## How it works
 
 Chapters run in order and build on each other — use the **Next** button at
 the bottom, or jump around with the sidebar if you're the rebellious type.
-The whole thing is readable in under an hour.
+The first arc reads in about half an hour; the workbench arc is another
+hour of deeper water, best taken with refills.
 
 Ready? Deep breath. Flip the switch. ⚡

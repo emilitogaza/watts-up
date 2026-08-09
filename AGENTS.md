@@ -3,16 +3,21 @@
 
 This repo is a **finished course site** (not the template — it was built from
 the reusable **Docs Starter** template that lives at
-`../content-site-template`). It's a fun, light English mini-course on how
-electricity works: ten Markdown chapters in `content/`, an electric-yellow
+`../content-site-template`). It's a fun English course on electricity in
+**two arcs** — the big world of power (grid, plants, home wiring) and the
+workbench (measurement, components, solder metallurgy, microcontrollers,
+LED strips): eighteen Markdown chapters in `content/`, an electric-yellow
 `volt-*` ramp, and a Lucide `zap` app icon + wordmark.
 
 ## Working on this site
 
 - **Content edits** are the usual job: one Markdown file per page in
   `content/`, conventions in `content/README.md`. Keep the voice light and
-  fun — jokes welcome, physics accurate. Recurring bit: each chapter has one
-  "**⚡ Spark fact:**" blockquote.
+  fun — jokes welcome, physics accurate. The reader wants to **understand
+  electronics**, not follow build guides: explain mechanisms and derive
+  rules from physics; never write step-by-step tutorial instructions
+  ("step 1, grab your soldering iron" is banned). Recurring bit: each
+  chapter has one "**⚡ Spark fact:**" blockquote.
 - **The landing page** (`app/page.tsx`) fills itself from `content/` —
   chapter cards, stats, and marquee need no updates when chapters change.
   Only its copy constants, hero heading, and the manually curated

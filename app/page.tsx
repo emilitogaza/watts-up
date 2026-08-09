@@ -12,7 +12,7 @@ import { getAllChapters, getSidebarSections } from "@/lib/content";
 const WORDMARK = "Watt's Up";
 const HERO_EYEBROW = "A free mini-course on electricity";
 const HERO_TAGLINE =
-  "Electrons, volts, spinning magnets and the biggest machine ever built — a short, fun course on the invisible force running your entire life.";
+  "Electrons, volts, spinning magnets and MOSFETs — a fun course on the invisible force running your life, from the continent-sized grid down to the pins of an ESP32.";
 const CTA_LABEL = "Start the course";
 const FOOTER_NOTE = "Watt's Up — how electricity actually works.";
 

@@ -22,7 +22,7 @@ const themeScript = `(function(){try{var t=localStorage.getItem("theme");var d=t
 const SITE_NAME = "Watt's Up";
 const SITE_TITLE = "Watt's Up — how electricity actually works";
 const SITE_DESCRIPTION =
-  "A fun, free mini-course on electricity: what it is, how spinning magnets make it, how it crosses the country into your wall socket, and why the third pin is your bodyguard.";
+  "A fun, free course on electricity in two arcs: how the grid gets power to your wall socket, then down to the workbench — components, solder metallurgy, microcontrollers, and the physics behind every LED-strip wiring rule.";
 
 // Browser UI colour (address bar). Keep in sync with the `--color-volt-*`
 // ramp in globals.css: light = volt-50, dark = volt-950.

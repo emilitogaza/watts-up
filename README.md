@@ -1,10 +1,13 @@
 # Watt's Up — how electricity actually works
 
-A fun, free mini-course on **electricity**: what it actually is (spoiler: the
-electrons move slower than snails), how spinning magnets make nearly all of
-it, how it crosses a country at 400,000 volts into your wall socket, and why
-the third pin on your plug is a silent bodyguard. Ten short chapters,
-readable in under an hour.
+A fun, free course on **electricity**, in two arcs. First the big world:
+what electricity actually is (spoiler: the electrons move slower than
+snails), how spinning magnets make nearly all of it, and how it crosses a
+country at 400,000 volts into your wall socket. Then the workbench: how
+instruments measure the invisible, what components really do, the
+metallurgy of solder joints, what a microcontroller pin is behind the
+metal, and why every LED-strip wiring rule is derivable physics. Eighteen
+chapters, roughly ninety minutes end to end.
 
 Built from the **Docs Starter** content-site template (a sibling repo at
 `../content-site-template`): every page is one Markdown file in `content/`,

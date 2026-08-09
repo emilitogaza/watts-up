@@ -1,0 +1,49 @@
+{
+  "name": "Watt's Up — how electricity actually works",
+  "short_name": "Watt's Up",
+  "description": "A fun, free mini-course on electricity: what it is, how it's made, how it reaches your wall socket, and why the third pin is your bodyguard.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "hsl(40, 60%, 4%)",
+  "theme_color": "hsl(40, 60%, 4%)",
+  "orientation": "portrait",
+  "launch_handler": {
+    "client_mode": ["focus-existing", "auto"]
+  },
+  "dir": "ltr",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "scope": "/",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

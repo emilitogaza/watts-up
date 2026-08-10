@@ -200,6 +200,7 @@ magick -background none -density 384 app/icon.svg           -resize 192x192 "$OU
 magick -background none -density 384 icon-maskable.svg      -resize 512x512 "$OUT/icon-512x512-maskable.png"
 magick -background none -density 384 icon-maskable.svg      -resize 192x192 "$OUT/icon-192x192-maskable.png"
 magick "$OUT/icon-512x512.png" -define icon:auto-resize=48,32,16 app/favicon.ico
+magick "$OUT/icon-512x512-maskable.png" -resize 180x180 -alpha off app/apple-icon.png
 ```
 
 (`icon-maskable.svg` is a scratch file — it doesn't need to ship.) The manifest
@@ -209,6 +210,12 @@ don't edit it for icons unless you add sizes.
 **Don't skip `app/favicon.ico`** — modern browsers use the SVG, but services
 that fetch `/favicon.ico` directly (the Vercel dashboard's project avatar,
 older crawlers, RSS readers) fall back to a framework logo without it.
+
+**Don't skip `app/apple-icon.png` either** — iOS ignores the web-app manifest
+when adding to the home screen and wants an apple-touch-icon; without it,
+installs get a page screenshot instead of the icon. It must be opaque and
+full-bleed (no rounded corners — iOS rounds them itself), which is why it's
+rendered from the *maskable* PNG.
 
 ### 5e. Update the wordmark
 
@@ -270,5 +277,6 @@ pnpm build
 - [ ] `app/icon.svg` + `public/icons/icon.svg` — new glyph, accent hexes
 - [ ] `public/icons/icon-{192,512}x{192,512}{,-maskable}.png` — regenerated (×4)
 - [ ] `app/favicon.ico` — regenerated from the 512 PNG
+- [ ] `app/apple-icon.png` — regenerated from the 512 maskable PNG (180×180, opaque)
 - [ ] `app/(course)/layout.tsx` + `components/mobile-nav.tsx` — wordmark icon + text
 - [ ] Verified in light **and** dark; `pnpm build` passes

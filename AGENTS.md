@@ -54,6 +54,14 @@ LED strips): eighteen Markdown chapters in `content/`, an electric-yellow
 - Icons are generated from a Lucide glyph (dark screen + accent glyph — no
   halo/outline layer, it double-strokes on complex shapes), rendered to PNGs
   incl. a maskable variant with ImageMagick. Full recipe: `docs/theming.md`.
+- **Every re-theme must leave the site installable as a PWA.** That means
+  regenerating the complete icon set — `app/icon.svg`, the four
+  `public/icons/*.png`, `app/favicon.ico`, **and `app/apple-icon.png`**
+  (iOS home-screen installs ignore the manifest and need it) — and updating
+  `app/manifest.webmanifest`'s `name`, `short_name`, `description` and both
+  colours. Sanity-check that the manifest is valid JSON afterwards; Chrome
+  silently ignores an invalid manifest and installs a nameless, iconless
+  shortcut.
 - The wordmark icon (`app/(course)/layout.tsx`, `components/mobile-nav.tsx`) must
   be the **same** Lucide glyph as the app icon.
 <!-- END:template-rules -->

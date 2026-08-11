@@ -45,6 +45,11 @@ const OTHER_COURSES = [
     href: "https://fran-jord-till-bord.vercel.app",
     description: "How farming works in Sweden — from soil to table.",
   },
+  {
+    title: "Nuts & Bolts",
+    href: "https://nuts-and-bolts.vercel.app",
+    description: "Torque, bolts, metals and machines — mechanical fundamentals.",
+  },
 ];
 
 export default function Home() {

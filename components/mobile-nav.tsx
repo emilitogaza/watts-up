@@ -106,7 +106,7 @@ export function MobileNav({ sections }: { sections: ChapterSection[] }) {
                     onClick={() => setOpen(false)}
                     className="flex items-center gap-2 text-sm font-semibold text-brand-ink"
                   >
-                    <Zap className="size-4 text-brand" />
+                    <Zap className="icon-4 text-brand" />
                     Watt&apos;s Up
                   </Link>
                   <button
@@ -115,7 +115,7 @@ export function MobileNav({ sections }: { sections: ChapterSection[] }) {
                     aria-label="Close chapter menu"
                     className="inline-flex size-10 items-center justify-center rounded-2 text-ink hover:bg-fill-raised"
                   >
-                    <X className="size-5" />
+                    <X className="icon-5" />
                   </button>
                 </div>
                 <div className="max-h-[55dvh] overflow-y-auto overscroll-contain px-2 py-4">
@@ -162,7 +162,7 @@ export function MobileNav({ sections }: { sections: ChapterSection[] }) {
                 animate={{ rotate: open ? 180 : 0 }}
                 className="inline-flex shrink-0"
               >
-                <ChevronUp className="size-5 text-ink/70" />
+                <ChevronUp className="icon-5 text-ink/70" />
               </m.span>
             </button>
             <ThemeToggle />

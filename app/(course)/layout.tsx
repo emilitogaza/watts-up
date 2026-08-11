@@ -21,7 +21,7 @@ export default function CourseLayout({ children }: { children: React.ReactNode }
             href="/"
             className="flex items-center gap-2 text-base font-semibold text-brand-ink"
           >
-            <Zap className="size-5 text-brand" />
+            <Zap className="icon-5 text-brand" />
             Watt&apos;s Up
           </Link>
           <ThemeToggle />

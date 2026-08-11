@@ -47,7 +47,7 @@ const OTHER_COURSES = [
   },
   {
     title: "Nuts & Bolts",
-    href: "https://nuts-and-bolts.vercel.app",
+    href: "https://nuts-and-bolts-sigma.vercel.app",
     description: "Torque, bolts, metals and machines — mechanical fundamentals.",
   },
 ];
